@@ -21,7 +21,7 @@ def yt_search(song):
         return url
 
 
-@app.on_message(filters.create(ignore_blacklisted_users) & filters.Message())
+@app.on_message_handler(func=lambda message: True)
 async def song(client, message):
     chat_id = message.chat.id
     user_id = message.from_user["id"]
