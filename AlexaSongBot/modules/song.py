@@ -100,7 +100,6 @@ async def song(client, message):
         chat_id=message.chat.id,
         audio=f"{str(user_id)}.mp3",
         duration=int(yt.length),
-        thumb="C:\\Users\\MARIO\\Desktop\\pyTelegramBotAPI\\Song-Downloader-main\\cc.jpg",
         title=str(yt.title),
         performer=str(yt.author),
         reply_to_message_id=message.message_id,
