@@ -1,18 +1,14 @@
-# Telegram Song Download Bot 🎶
+# Alexa Song Bot
+## Fastest Mp3 downloader
+<p align="center">
+  <img src="https://media.giphy.com/media/aRsdC3xpNBFxWel7JU/giphy.gif">
+</p>
 
-## You can download any song using this bot. Can be found in telegram as [@MusicDownloadingRobot](https://t.me/MusicDownloadingRobot)
 
-### Deploy to Heroku 🏃‍♂
+## How To Host
+The easiest way to deploy this Song Bot
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Mr-Dark-Prince/AlexaSongBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="210" height="34.45"/></a></p>
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/LION4X/botmusics)
 
-### Credits:
 
-[Galaxy Bots](https://t.me/GalaxyLanka)
-
-[Pyrogram Library](https://github.com/pyrogram/pyrogram)
-
-### Developer:
-
-[@Prabha_sha](https://t.me/Prabha_sha)
 

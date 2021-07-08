@@ -1,37 +1,35 @@
 {
-    "name": "Song Downloader Bot",
-    "description": "A bot that can download song you want.",
-    "logo": "https://telegra.ph/file/552ef4321dd596395a81c.png",
-    "keywords": [
-        "Music",
-        "Songdl",
-        "Telegram Bot",
-        "JE Bots"
-    ],
-    "website": "sltechcom.webnode.com",
-    "repository": "https://github.com/ImJanindu/Songdl-tgbot",
-    "success_url": "https://t.me/GalaxyLanka",
+    "name": "AlexaSongBot",
+    "description": "Grabs song from yt and sends it to telegram",
     "env": {
-        "TG_BOT_TOKEN": {
-            "description": "You Telegram Bot Token from @BotFather",
-            "value": ""
+        "API_ID": {
+            "description": "Get this value from my.telegram.org.",
+            "required": true
         },
         "API_HASH": {
-            "description": "Your API Hash from my.telegram.org",
-            "value": ""
+            "description": "Get this value from my.telegram.org.",
+            "required": true
         },
-        "APP_ID": {
-            "description": "Your APP ID from my.telegram.org",
-            "value": ""
+        "BOT_TOKEN": {
+            "description": "Get this value by making a bot from @BotFather.",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "Your telegram user id.",
+            "required": true
         }
     },
-    "addons": [],
     "buildpacks": [
         {
             "url": "heroku/python"
-        },
+        }
+    ],
+    "addons": [
         {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+            "plan": "heroku-postgresql",
+            "options": {
+                "version": "12"
+            }
         }
     ],
     "formation": {
